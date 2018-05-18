@@ -1,0 +1,2 @@
+git+ssh://git@github.com/FindawayWorld/lambda-util.git@1.0#egg=lambda-util
+Pillow==5.0.0

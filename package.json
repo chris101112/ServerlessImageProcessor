@@ -1,0 +1,21 @@
+{
+  "name": "image_processor",
+  "version": "1.0.0",
+  "description": "A short description of the service",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-domain-manager": "^2.2.2",
+    "serverless-plugin-aws-alerts": "^1.2.4",
+    "serverless-plugin-lambda-dead-letter": "git+ssh://git@github.com:FindawayWorld/serverless-plugin-lambda-dead-letter.git",
+    "serverless-python-requirements": "^4.0.0",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-apigwy-binary": "^0.1.0"
+  }
+}

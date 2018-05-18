@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title> Fun Image Stuff </title>
+      <script type = "text/JavaScript">
+        function getLink() 
+        {
+            baseUrl = "https://imageprocessor-dev.findaway.com/image/";
+            imgName = document.theForm.userInput.value;
+            imgWidth = document.theForm.userWidth.value;
+            imgHeight = document.theForm.userHeight.value;
+            document.getElementById("image").src = baseUrl + imgName + "?width=" + imgWidth + "&height=" + imgHeight;
+        }
+      </script>
+   </head>
+	
+   <body>
+      <form name = "theForm" action = "javascript:getLink()">
+         Image Name: <input type = "text" id = "userInput" />
+         Width: <input type = "number" size = "6" id = "userWidth" />
+         Height: <input type = "number"  size = "6" id = "userHeight" />
+         <input name = "Submit" type = "submit" value = "Button"/>
+      </form>
+      <img src = "https://images.findawayworld.com/v1/image/cover/CD164861?width=400" id = "image" alt = "Can't Display Image" />
+      
+   </body>
+	
+</html>

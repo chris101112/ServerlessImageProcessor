@@ -1,0 +1,3 @@
+
+domainName: ${self:service}-${self:provider.stage}.findaway.com
+LogLevel: DEBUG
